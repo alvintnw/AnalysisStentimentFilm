@@ -1,7 +1,9 @@
 Movie Review Sentiment Analysis
+
 This project demonstrates a simple yet effective approach to performing sentiment analysis on movie reviews. It utilizes common Natural Language Processing (NLP) techniques and a Logistic Regression model to classify reviews as either "Positive" or "Negative".
 
 Code Overview
+
 The Google Colab notebook AnalysisStentimentFilm.ipynb walks through the following steps:
 
 Library Imports and NLTK Downloads:
@@ -89,7 +91,9 @@ Based on the prediction (1 or 0), it returns "Positif" or "Negatif".
 Provides several example reviews to demonstrate how the function can be used to predict sentiment for new text inputs.
 
 Dataset
+
 The dataset used in this project is sourced from:
+
 https://raw.githubusercontent.com/Ankit152/IMDB-Sentiment-Analysis/master/IMDB-Dataset.csv
 
 It contains two columns:
@@ -114,6 +118,7 @@ nltk
 scikit-learn
 
 How to Use (in Google Colab)
+
 Open the AnalysisStentimentFilm.ipynb file in Google Colab.
 
 Run all cells sequentially.
